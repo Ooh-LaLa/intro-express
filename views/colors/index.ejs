@@ -1,0 +1,12 @@
+<body>
+    <h1>Colors!</h1>
+    <ul>
+      <% colors.forEach(color => { %>
+        <li>
+                  <%= color.text %> 
+                  - 
+                  <%= color.used ? 'done' : 'not used' %>
+              </li>
+      <% }) %>
+    </ul>
+  </body>
